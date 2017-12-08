@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "aplano-web"
+    "default": "aplano-web",
+    "web-dev": "aplano-web-dev"
   }
 }
