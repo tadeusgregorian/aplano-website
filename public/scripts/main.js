@@ -36,18 +36,13 @@ $('a[href*="#"]')
 });
 
 
-
 $( document ).ready(function() {
   $('#tade-register-btn').click(function(){
     var nameInp = $('#tade-name-input').val()
     var emailInp = $('#tade-email-input').val()
 
-    var domainDev  = 'plandy-91a56.firebaseapp.com'
-    var domainProd = 'aplano.de'
-    var domain = domainDev
-
-    createCookie(nameInp+'_|_'+emailInp, domain)
-    window.location.href(domain + '/register')
+    createCookie(nameInp+'/-/'+emailInp, 'aplano.de')
+    window.location.href = 'https://app.aplano.de/register'
   })
 });
 

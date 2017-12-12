@@ -34,6 +34,10 @@ fb {
   background: #f1f1f1;
 }
 
+.tade-header .tade-aplano-logo{
+  width: 124px;
+}
+
 .aa-header .navbar .navbar-brand {
   font-size: 24px;
   font-family: "Roboto", "Helvetica", Arial, sans-serif;
@@ -96,8 +100,9 @@ fb {
 
 .aa-header .headlineDescription{
   font-size: 20px;
-  color: #757575 !important;
+  color: #888888 !important;
   text-align: center;
+  font-weight: 400;
 }
 
 .tade-register-wrapper{
@@ -215,9 +220,25 @@ fb {
   margin-bottom: 1.5rem;
 }
 
+.tade-exp-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.aa-product-details .tade-exp-icon{
+  margin: 0px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.aa-product-details .tade-exp-icon i{
+  width: 60px;
+}
+
 .aa-product-details .description .h4 {
   color: #111111;
   padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 .aa-product-details .icon {
@@ -229,6 +250,58 @@ fb {
 
 .aa-screenshots {
   background-color: #F5FAFD;
+}
+
+.tade-desc-points{
+  flex-direction: column;
+  align-items: center;
+}
+
+.tade-exp-box .description .h4 {
+  margin-top: 14px;
+  padding-bottom: 12px;
+}
+
+.tade-desc-points fb {
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
+}
+
+.aa-product-features .tade-mobile-pros {
+  flex-direction: column;
+}
+
+.aa-product-features .tade-mobile-pros p {
+  font-size: 20px;
+}
+
+.aa-product-features .tade-mobile-pros ul li {
+  color: #01a2f1;
+  font-size: 18px;
+}
+
+.screenshotImg1 {
+  border-radius: 4px;
+  border: 1px solid #03a2f2;
+  box-shadow: 2px 2px 4px 1px #00000057;
+}
+
+.tade-section-short {
+  padding: 28px 0px;
+}
+
+.tade-title {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.tade-regular{
+  font-size: 18px;
+}
+
+.tade-centered {
+  justify-content: center;
 }
 
 @media (max-width: 992px) {
